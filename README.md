@@ -4,7 +4,7 @@
 
 
 <div class="wp-block-group">
-<p>このリポジトリは、catコマンドを実行してファイルから文字列を取得し、空白が2回続く文字列を正しく出力するプログラムを実行できます</p>
+<p>このリポジトリは、catコマンドを実行してファイルから文字列を取得し、空白が2回続く文字列を正しく出力するプログラムを実行します</p>
 </div>
 
 
@@ -142,11 +142,11 @@ chmod 755 start_cat_doubleSpace.sh
 
 <div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+</div>
 
 
 
@@ -156,11 +156,11 @@ chmod 755 start_cat_doubleSpace.sh
 
 <div class="wp-block-group">
 <p>端末にcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+</div>
 
 
 
@@ -228,12 +228,12 @@ git --version</code></pre>
 
 <div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
 echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+</div>
 
 
 
@@ -325,11 +325,11 @@ chmod 755 start_cat_doubleSpace.sh
 
 
 <h5 class="wp-block-heading">MSYS2 MINGW64</h5>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>pacman --sync git</code></pre>
+</div>
 
 
 
@@ -393,8 +393,4 @@ chmod 755 start_cat_doubleSpace.sh
 
 <div class="wp-block-group">
 <p>$resultにダブルクオーテーションを付けるか付けないかで出力結果が変わります。付けた方は/hello/cat/command/hello world/test&nbsp;&nbsp;string.pngのようにtestとstringの間の空白が意図した通りに出力されています</p>
-
-
-
-<p></p>
 </div>
